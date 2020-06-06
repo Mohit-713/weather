@@ -1,0 +1,9 @@
+for shceduler process 
+
+
+1) i create sendmail.php file 
+2) this use weatherinfo.php and fetchcity.php where i get all city for all user.
+3) at weatherinfo.php filter city on alert property 
+4) then get mailid of user from user table using userid property of cities table bind this userid in citiesarray
+5) after that use sendemail file to send email to all use .
+ 
