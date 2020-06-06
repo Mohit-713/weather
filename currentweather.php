@@ -3,7 +3,7 @@
              //echo date("l g:i a", $currentTime);
             echo date("h:i:s", $citydatajson->dt); 
             ?></div>
-            <div><?php echo date("jS F, Y",$currentTime); ?></div>
+            <div><?php echo date("jS F, Y",$citydatajson->dt); ?></div>
             <div><?php echo ucwords($citydatajson->weather[0]->description); ?></div>
         </div>
         <div class="weather-forecast">

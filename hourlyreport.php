@@ -3,7 +3,7 @@
         <div class="hour-report" >
             <div class="time">
             <div><?php echo date("h:i:s", $citydatajson_HourAndDay->hourly[$h]->dt); ?></div>
-            <div><?php echo date("jS F, Y",$currentTime); ?></div>
+            <div><?php echo date("jS F, Y",$citydatajson_HourAndDay->hourly[$h]->dt); ?></div>
             <div><?php echo ucwords($citydatajson_HourAndDay->hourly[$h]->weather[0]->description); ?></div>
             </div>
         <div class="weather-forecast">

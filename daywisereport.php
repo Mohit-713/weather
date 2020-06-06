@@ -1,8 +1,8 @@
       
       <div class="hour-report" >
       <div class="time">
-            <div><?php echo date("h:i:s", $citydatajson_HourAndDay->daily[$d]->dt); ?></div>
-            <div><?php echo date("jS F, Y",strtotime($currentTime. '+'.$d.'days')); ?></div>
+<!--            <div><?php echo date("h:i:s", $citydatajson_HourAndDay->daily[$d]->dt); ?></div>-->
+            <div><?php echo date("jS F, Y",$citydatajson_HourAndDay->daily[$d]->dt); ?></div>
             <div><?php echo ucwords($citydatajson_HourAndDay->daily[$d]->weather[0]->description); ?></div>
         </div>
         <div class="weather-forecast">

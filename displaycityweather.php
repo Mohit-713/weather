@@ -103,7 +103,7 @@ span.min-temperature {
         </div><br><br>
         <div class="day-report" style="padding-left: 200px;" align="center">
             <h2><?php echo $citydatajson->name; ?>'s 5 day Weather Status</h2>
-            <?php for($d=0;$d<5;$d++){ include("daywisereport.php"); }?>
+            <?php for($d=1;$d<6;$d++){ include("daywisereport.php"); }?>
         </div>
 
 
